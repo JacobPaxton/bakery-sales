@@ -30,4 +30,7 @@ The **Simple Average as Prediction model performed best** with an RMSE of 8738 w
 8. Tested model performance against final out-of-sample data
 
 # Recreate my work
-1. Run final_notebook.ipynb as a Jupyter Notebook Python 3 notebook
+1. Clone this repository
+2. Download the bakery sales data from the Kaggle link above
+3. Run final_notebook.ipynb as a Jupyter Notebook Python 3 notebook
+4. Execute all cells in the notebook
