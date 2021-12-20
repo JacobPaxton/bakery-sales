@@ -34,3 +34,12 @@ Includes:
     * Are there significant increases or decreases in certain items sold during holidays or otherwise?
     * Are any items being disproportionately bought by certain areas?
 6. Create a Tableau heatmap for locations and sales
+7. Model future sales
+
+# Work Done So Far
+- Wrangle: Acquire data, drop nulls in datetime column
+- Wrangle: Drop all Tuesdays except Christmas Eve (closed)
+- Wrangle: Identify additional down days and the reasons for closure
+- Wrangle: Drop *all* days where business was closed
+- Explore: Plot univariate distributions
+- Explore: Create structure and plan for achieving objectives
