@@ -40,7 +40,7 @@ def drop_zero_rev_days(sales):
     # drop zero-revenue days from daily sales df
     nonzero_rev_days = daily_sales[daily_sales.total > 0]
 
-    return nonzero_rev_days
+    return daily_sales, nonzero_rev_days
 
 def drop_closed_tuesdays(resampled_day_df):
     """ 
