@@ -38,8 +38,21 @@ Includes:
 
 # Work Done So Far
 - Wrangle: Acquire data, drop nulls in datetime column
-- Wrangle: Drop all Tuesdays except Christmas Eve (closed)
-- Wrangle: Identify additional down days and the reasons for closure
-- Wrangle: Drop *all* days where business was closed
+- Wrangle: Aggregate transactions into daily_sales
+    * Identify down days, EX: Tuesdays are usually closed business, but not Christmas Eve
+    * Identify the reasons for other down days
+    * With above justification, drop *all* days where business was closed
 - Explore: Plot univariate distributions
-- Explore: Create structure and plan for achieving objectives
+    * Histogram of sales totals
+    * Histogram of delivery locations
+    * Bar chart of individual item sale counts
+- Explore: Plot daily and weekly trends in total sales
+    * Plot daily revenue totals, seven-day rolling average in revenue totals, and average day's revenue
+    * Plot weekly revenue totals, four-week rolling average, and average week's revenue
+    * Document takeaways from visualizations
+    * Explain visualization takeaways using context from world events
+- Explore: Calculate delivery amounts for each transaction
+    * Note: Some discrepancies seem to indicate unknown discounts
+- Explore: Prepare delivery locations for exploration
+    * Change Korean location names to romanized versions
+    * 'Place' delivery locations relative to one another based on Google Maps boundary definitions
