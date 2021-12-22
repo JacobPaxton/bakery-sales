@@ -61,6 +61,7 @@ Includes:
     * Calculate ratios for delivery charge in total charges
     * Create boxplots and bar charts showing locational delivery charge information
     * Create histogram of delivery charge amounts for each location
+    * Determine central location for potential feature creation
     * Document takeaways
 - Explore: Map out neighborhoods using sketch on Google Maps overview
     * Link to sketch: https://i.imgur.com/ED9qHEz.png
