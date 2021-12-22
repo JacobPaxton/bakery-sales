@@ -37,31 +37,35 @@ Includes:
 7. Model future sales
 
 # Work Done So Far
-- Wrangle: Acquire data, drop nulls in datetime column
-- Wrangle: Aggregate transactions into daily_sales
+## Wrangle
+- Acquire data, drop nulls in datetime column
+- Aggregate transactions into daily_sales
     * Identify down days, EX: Tuesdays are usually closed business, but not Christmas Eve
     * Identify the reasons for other down days
     * With above justification, drop *all* days where business was closed
-- Explore: Plot univariate distributions
+## Explore
+- Plot univariate distributions
     * Histogram of sales totals
     * Histogram of delivery locations
     * Bar chart of individual item sale counts
-- Explore: Plot daily and weekly trends in total sales
+- Plot daily and weekly trends in total sales
     * Plot daily revenue totals, seven-day rolling average in revenue totals, and average day's revenue
     * Plot weekly revenue totals, four-week rolling average, and average week's revenue
     * Document takeaways from visualizations
     * Explain visualization takeaways using context from world events
-- Explore: Calculate delivery amounts for each transaction
+- Calculate delivery amounts for each transaction
     * Note: Some discrepancies seem to indicate unknown discounts
-- Explore: Prepare delivery locations for exploration
+- Prepare delivery locations for exploration
     * Change Korean location names to romanized versions
     * 'Place' delivery locations relative to one another based on Google Maps boundary definitions
-- Explore: Analyze delivery charges by location
+- Analyze delivery charges by location
     * Calculate average delivery charges by location
     * Calculate ratios for delivery charge in total charges
     * Create boxplots and bar charts showing locational delivery charge information
     * Create histogram of delivery charge amounts for each location
     * Determine central location for potential feature creation
     * Document takeaways
-- Explore: Map out neighborhoods using sketch on Google Maps overview
-    * Link to sketch: https://i.imgur.com/ED9qHEz.png
+- Map out neighborhoods using sketch on Google Maps overview
+    * Add additional layer for delivery charges
+- Create crosstab and heatmap for delivery location sales by hour of the day
+- Check averages for total items sold by delivery location
