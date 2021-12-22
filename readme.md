@@ -56,3 +56,11 @@ Includes:
 - Explore: Prepare delivery locations for exploration
     * Change Korean location names to romanized versions
     * 'Place' delivery locations relative to one another based on Google Maps boundary definitions
+- Explore: Analyze delivery charges by location
+    * Calculate average delivery charges by location
+    * Calculate ratios for delivery charge in total charges
+    * Create boxplots and bar charts showing locational delivery charge information
+    * Create histogram of delivery charge amounts for each location
+    * Document takeaways
+- Explore: Map out neighborhoods using sketch on Google Maps overview
+    * Link to sketch: https://i.imgur.com/ED9qHEz.png
