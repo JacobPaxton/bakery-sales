@@ -1,3 +1,7 @@
+# Korean Bakery Sales
+
+![This is an image](https://i.imgur.com/5yaaaQU.jpg)
+
 # Overview
 This project analyzes a Korean bakery's sales data for a 10-month stretch. The work here is a new iteration on my old work, contained in the folder old-work. 
 
@@ -71,3 +75,4 @@ Includes:
 - Check averages for total items sold by delivery location
 - Check averages for total revenue by delivery location and week of operation
 - Check averages for total revenue by delivery location and month of operation
+- Check overall sales numbers by product
