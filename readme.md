@@ -69,3 +69,5 @@ Includes:
     * Add additional layer for delivery charges
 - Create crosstab and heatmap for delivery location sales by hour of the day
 - Check averages for total items sold by delivery location
+- Check averages for total revenue by delivery location and week of operation
+- Check averages for total revenue by delivery location and month of operation
