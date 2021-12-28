@@ -108,39 +108,12 @@ Includes:
 ### Are any items being disproportionately bought by certain areas?
 > - Yes. Specific details could be gathered in future analysis
 
-# Work Done So Far
-## Wrangle
-- Acquire data, drop nulls in datetime column
-- Aggregate transactions into daily_sales
-    * Identify down days, EX: Tuesdays are usually closed business, but not Christmas Eve
-    * Identify the reasons for other down days
-    * With above justification, drop *all* days where business was closed
-## Explore
-- Plot univariate distributions
-    * Histogram of sales totals
-    * Histogram of delivery locations
-    * Bar chart of individual item sale counts
-- Plot daily and weekly trends in total sales
-    * Plot daily revenue totals, seven-day rolling average in revenue totals, and average day's revenue
-    * Plot weekly revenue totals, four-week rolling average, and average week's revenue
-    * Document takeaways from visualizations
-    * Explain visualization takeaways using context from world events
-- Calculate delivery amounts for each transaction
-    * Note: Some discrepancies seem to indicate unknown discounts
-- Prepare delivery locations for exploration
-    * Change Korean location names to romanized versions
-    * 'Place' delivery locations relative to one another based on Google Maps boundary definitions
-- Analyze delivery charges by location
-    * Calculate average delivery charges by location
-    * Calculate ratios for delivery charge in total charges
-    * Create boxplots and bar charts showing locational delivery charge information
-    * Create histogram of delivery charge amounts for each location
-    * Determine central location for potential feature creation
-    * Document takeaways
-- Map out neighborhoods using sketch on Google Maps overview
-    * Add additional layer for delivery charges
-- Create crosstab and heatmap for delivery location sales by hour of the day
-- Check averages for total items sold by delivery location
-- Check averages for total revenue by delivery location and week of operation
-- Check averages for total revenue by delivery location and month of operation
-- Check overall sales numbers by product
+# Recreate My Work
+1. Read the README
+2. Download the required files
+    * wrangle.py
+    * final_notebook.ipynb
+    * Bakery Sales.csv
+    * Bakery price.csv
+3. Open final_notebook.ipynb in a Jupyter Notebook Python3 session
+4. Run all cells in final_notebook.ipynb
