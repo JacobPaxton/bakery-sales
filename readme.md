@@ -48,7 +48,7 @@ Includes:
 > 4. **In the month following the high-delivery period, delivery sales slowly return to pre-pandemic numbers**
 
 ## Neighborhood translations and locations
-Standard Delivery Charge: 2000 won
+**Standard Delivery Charge: 2000 won**
 
 **Chuncheon Center:**
 - '조운동' 'Joundong' - Center of Chuncheon Neighborhoods - Standard Delivery Charge
